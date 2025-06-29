@@ -6,6 +6,7 @@
 
 import numpy as np   # Importing NumPy module
 import os
+from fractions import Fraction
 
 # For clearing the screen
 def clear_scr():
@@ -42,13 +43,13 @@ def operation():
 
     while True:
         try:
-            user = list(map(float, input(f"Enter {row*col} elements: ").split())) # List Input
+            user = list(float(Fraction(x)) for x in input(f"Enter {row*col} elements: ").split()) # List Input
             if len(user) == row*col:
                 break
             else:
                 print(f"Invalid elements number. You entered {len(user)} elements. Should be {row*col} elements. Try Again.")
         except ValueError:
-            print("Please enter valid integers separated by spaces. Try Again!")
+            print("Please enter valid elements separated by spaces. Try Again!")
     
     matrix = np.array(user).reshape(row, col)  # Converting list into desired numpy array
     return matrix
