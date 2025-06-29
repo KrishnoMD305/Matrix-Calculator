@@ -31,6 +31,7 @@ Matrix Calculator is a Python application designed to perform essential matrix o
 - **Python 3.x**: Core programming language
 - **NumPy**: Primary library for matrix operations and numerical computations
 - **os**: Operating system interface utilities (e.g. clearing screen)
+- **fraction**: Take valid input including fraction elements
 
 ## 📥 Installation
 
