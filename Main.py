@@ -42,7 +42,7 @@ def operation():
 
     while True:
         try:
-            user = list(map(int, input(f"Enter {row*col} elements: ").split())) # List Input
+            user = list(map(float, input(f"Enter {row*col} elements: ").split())) # List Input
             if len(user) == row*col:
                 break
             else:
@@ -130,7 +130,7 @@ def DetInvTrans(type):
 
         if type == 5:
             while True:
-                if np.linalg.det(mat) == 0:  # Checking condition
+                if np.isclose(np.linalg.det(mat),0):  # Checking condition
                     print("The determinant is zero. Inverse not possible! Try again.")
                     try:
                         mat = operation()
