@@ -83,10 +83,7 @@ Matrix Calculator is a Python application designed to perform essential matrix o
 Matrix-Calculator/
 │
 ├── main.py                 # Main application file
-├── matrix_operations.py    # Core matrix operation functions
-├── utils.py               # Helper utilities and validation functions
 ├── README.md              # Project documentation
-└── requirements.txt       # Project dependencies
 ```
 
 ## ⚠️ Error Handling
@@ -99,39 +96,12 @@ The application includes comprehensive error handling for various scenarios:
 - **Empty Input**: Manages empty or null matrix inputs
 - **Division by Zero**: Prevents mathematical errors in calculations
 
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help improve the Matrix Calculator:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-### Areas for Contribution
-- Additional matrix operations (eigenvalues, eigenvectors, etc.)
-- GUI implementation
-- Performance optimizations
-- Extended error handling
-- Unit tests
-
 ## 👨‍💻 Author
 
 **Krishno Mondol**
 - Computer Science and Engineering Student
 - Khulna University of Engineering & Technology
 - GitHub: [@yourusername](https://github.com/yourusername)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- NumPy development team for providing excellent matrix computation capabilities
-- Khulna University of Engineering & Technology for academic support
-- Open source community for inspiration and best practices
 
 ---
 
