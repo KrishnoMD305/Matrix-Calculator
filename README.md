@@ -9,12 +9,10 @@ A comprehensive Python-based matrix calculator that performs various matrix oper
 - [Installation](#installation)
 - [Usage](#usage)
 - [Supported Operations](#supported-operations)
-- [Screenshots](#screenshots)
+- [Screenshot](#screenshots)
 - [Project Structure](#project-structure)
 - [Error Handling](#error-handling)
-- [Contributing](#contributing)
 - [Author](#author)
-- [License](#license)
 
 ## 🔍 Overview
 
@@ -38,7 +36,7 @@ Matrix Calculator is a Python application designed to perform essential matrix o
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/Matrix-Calculator.git
+   git clone https://github.com/KrishnoMD305/Matrix-Calculator.git
    cd Matrix-Calculator
    ```
 
@@ -71,10 +69,10 @@ Matrix Calculator is a Python application designed to perform essential matrix o
 - **Matrix Transpose**: Find the transpose of any matrix
 - **Determinant**: Calculate the determinant of a square matrix
 
-## 📸 Screenshots
+## 📸 Screenshot
 
 ### Application Interface
-![Matrix Calculator Interface](path/to/your/screenshot.png)
+![Matrix Calculator Interface](Interface.png)
 *First appearance of the Matrix Calculator after running the code*
 
 ## 📁 Project Structure
@@ -82,7 +80,8 @@ Matrix Calculator is a Python application designed to perform essential matrix o
 ```
 Matrix-Calculator/
 │
-├── main.py                 # Main application file
+├── main.py                # Main application file
+├── Interface.png          # Interface of the program
 ├── README.md              # Project documentation
 ```
 
@@ -101,7 +100,7 @@ The application includes comprehensive error handling for various scenarios:
 **Krishno Mondol**
 - Computer Science and Engineering Student
 - Khulna University of Engineering & Technology
-- GitHub: [@yourusername](https://github.com/yourusername)
+- GitHub: [@KrishnoMD305](https://github.com/KrishnoMD305)
 
 ---
 
