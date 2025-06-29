@@ -184,7 +184,7 @@ def Menu():
     else:
         result = DetInvTrans(type)
     
-    if result != None:
+    if result is not None:
         if type==1:
             print("Result of Addition below:")
         elif type==2:
