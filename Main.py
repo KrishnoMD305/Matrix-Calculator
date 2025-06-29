@@ -5,7 +5,7 @@
 
 
 import numpy as np   # Importing NumPy module
-import sys,os
+import os
 
 # For clearing the screen
 def clear_scr():
